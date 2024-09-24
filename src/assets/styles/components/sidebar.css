@@ -1,0 +1,48 @@
+.sidebarContainer {
+  width: 30vw;
+  min-width: 20rem;
+  align-items: center;
+}
+.searchBarWrapper {
+  background-color: var(--slate-300);
+  width: 95%;
+  height: 2.3rem;
+}
+.searchBar {
+  background-color: var(--slate-300);
+}
+.contactList {
+  margin-top: 1.5rem;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.contactItem {
+  display: flex;
+  align-items: center;
+}
+.contactItem:hover {
+  background-color: var(--slate-300);
+}
+.toggleModeBtn {
+  margin-right: 20px;
+}
+.addConversation {
+  width: 95%;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tooltip {
+  z-index: 1;
+  position: absolute;
+  background-color: var(--slate-50);
+  width: 30rem;
+  left: 25%;
+  transform: translateY(-3rem);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  max-height: 15rem;
+  overflow: auto;
+}
+.tooltip-btm {
+  transform: translateY(-130%);
+}

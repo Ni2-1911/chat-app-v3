@@ -1,0 +1,74 @@
+.chatContainer {
+  background-color: var(--slate-300);
+  min-width: 500px;
+  width: 70vw;
+}
+.chatHeader {
+  background-color: var(--slate-400);
+}
+.chatBox {
+  flex-grow: 1;
+  background: url("/src/assets/images/bg-chat-room.png"), var(--yellow-primary);
+  overflow-y: auto;
+}
+.sendingMessage {
+  align-self: flex-end;
+}
+.textBox {
+  height: 5rem;
+  background-color: var(--slate-400);
+  flex-shrink: 0;
+}
+.messageBox {
+  background-color: var(--green-primary);
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.2);
+  margin: 0.6rem;
+  max-width: 60%;
+}
+.messageText {
+  font-size: 15px;
+  max-width: 90%;
+  overflow-wrap: break-word;
+  margin: 10px;
+}
+.messageUtil {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 100%;
+}
+.defaultMessage {
+  background-color: var(--yellow-secondary);
+  width: 50%;
+  align-self: center;
+  margin: 0.5rem;
+}
+.util {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: max-content;
+  margin-block: 0.5rem;
+  padding-block: 0.5rem;
+  background-color: var(--slate-50);
+  color: var(--slate-800);
+  border-radius: 0.25rem;
+  z-index: 10;
+}
+.utilList {
+  & > utilListItem {
+    list-style: none;
+  }
+}
+.utilListItem {
+  padding: 0.5rem 1rem;
+  display: block;
+}
+.utilListItem:hover {
+  background-color: var(--slate-300);
+}
+.editMessage {
+  height: 4rem;
+  width: 30rem;
+}

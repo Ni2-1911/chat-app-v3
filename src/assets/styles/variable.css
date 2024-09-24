@@ -1,0 +1,11 @@
+:root {
+  --green-primary: #d9fdd3;
+  --green-secondary: #15846e;
+  --yellow-primary: rgb(239, 234, 226);
+  --yellow-secondary: #ffeecd;
+  --slate-50: #ffffff;
+  --slate-200: #e9edef;
+  --slate-300: #f1f2f5;
+  --slate-400: #f1f2f5;
+  --slate-800: #54656f;
+}
